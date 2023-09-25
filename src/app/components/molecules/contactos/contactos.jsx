@@ -1,4 +1,4 @@
-import './contactos.css'
+import style from './contactos.css'
 import Link from 'next/link'
 export default function contactos() {
   return (
