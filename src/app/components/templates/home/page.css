@@ -1,0 +1,28 @@
+.section{
+    display: flex;
+
+}
+.contenido{
+    display: flex;
+    margin-bottom: 20vh;
+}
+.contenidoprincipal{
+    display: flex;
+   flex-direction: column;
+    height: auto;
+    flex-wrap: wrap;
+}
+.video{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 15vh;
+    display: none;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

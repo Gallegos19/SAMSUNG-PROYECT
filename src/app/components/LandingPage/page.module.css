@@ -1,0 +1,47 @@
+.fondo{
+    display: flex;
+    height: 10%;
+    flex-direction: column;
+    width: auto;
+    box-shadow: 0px 2px 0px black
+}
+.fondo text{
+    width: 50%;
+    color: black;
+}
+.fondo,
+.huela,
+.phone{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.container{
+    margin-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px #000;
+    margin: auto;
+    width: 90%;
+}
+.huella, 
+.phone{
+    display: flex;
+    color: black;
+    flex-direction: column;
+    box-shadow: 0px 2px 0px black
+}
+.phone:hover{
+    transform: scale(0.95);
+}
+
+@media screen and (max-width:600px){
+    .container{
+        gap: 2em;
+        flex-direction: column;
+    }
+}
